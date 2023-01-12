@@ -1,0 +1,67 @@
+////#include <iostream>
+////
+////using namespace std;
+////
+////int main()
+////
+////{
+////
+////	int age = 20;
+////
+////	{
+////
+////		cout << "Vlad" << endl;
+////
+////	}
+////
+////else cout << "Spook";
+////
+////return 0;
+////
+////}
+////
+#include <iostream>
+using namespace std;
+////
+////int main()
+////
+////{
+////
+////	int Vlad = 32, Barak = 20;
+////
+////	if (Vlad > 0 && Barak < 50)
+////
+////	{
+////
+////		cout << "Vlad age is ok" << endl;
+////
+////	}
+////
+////	else cout << "wrong Vlad age" << endl;
+////
+////	if (Vlad > 0 && Vlad < 10)
+////
+////	{
+////
+////		cout << "Vlad age is ok" << endl;
+////
+////	}
+////
+////	else cout << "wrong Vlad age" << endl;
+//	
+//}
+
+
+int main()
+{
+
+    string parole = "2281337", paka;
+	cout << "enter :";
+	cin >> paka;
+	if (parole == paka) 
+	{
+	cout << "horosh" << endl;
+
+	}
+	else cout << "incorrect";
+}
